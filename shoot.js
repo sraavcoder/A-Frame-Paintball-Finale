@@ -31,7 +31,7 @@ AFRAME.registerComponent("bullets", {
         camera.getWorldDirection(direction);
 
         //set the velocity and it's direction
-        bullet.setAttribute("velocity", direction.multiplyScalar(-20));
+        bullet.setAttribute("velocity", direction.multiplyScalar(-30));
 
         var scene = document.querySelector("#scene");
 
